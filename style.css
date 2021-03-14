@@ -1,0 +1,97 @@
+body{
+  font-family: cursive;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+   }
+   
+   h1 {
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 50px;
+     color: maroon;
+   }
+   
+   div {
+     padding: 15px; 
+   }
+   
+   .container {
+       background-color: gray;
+       color: white;
+       border: 1px solid black;
+       width: 300px;
+   }
+   
+   #box1 {
+       font-size: 125%;
+       border: 1px solid black;
+       margin-left: auto;
+       margin-bottom: 5px;
+       position: relative;
+       top: -16px;
+       right: -16px;
+       width: 150px;
+       background-color: pink;
+       color: black;
+       text-align: center;
+       padding: 5px;
+   }
+   
+   #box2 {
+       font-size: 125%;
+       border: 1px solid black;
+       margin-left: auto;
+       margin-bottom: 5px;
+       position: relative;
+       top: -16px;
+       right: -16px;
+       width: 150px;
+       background-color: red;
+       text-align: center;
+       padding: 5px;
+   }
+   
+   #box3 {
+       font-size: 125%;
+       border: 1px solid black;
+       margin-left: auto;
+       margin-bottom: 5px;
+       position: relative;
+       top: -16px;
+       right: -16px;
+       width: 150px;
+       background-color: yellow;
+       color: black;
+       text-align: center;
+       padding: 5px;
+   }
+   
+   @media (min-width: 992px) {
+   .col-lg-4 {
+       float: left;
+       width: 33.3%;
+       }
+   }
+   
+   @media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {
+       float: left;
+     }
+     .col-md-6 {
+       width: 50%;
+     }
+     .col-md-12 {
+       width: 100%;
+     }
+   }
+   
+   @media (max-width: 767px) {
+   .col-sm-12 {
+       float: left;
+       width: 100%;
+     }
+   }
